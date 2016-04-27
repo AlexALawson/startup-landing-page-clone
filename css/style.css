@@ -6,8 +6,6 @@ body {
 
 html {
   box-sizing: border-box;
-  vertical-align: baseline;
-  
 }
 *, *:before, *:after {
 
@@ -104,7 +102,7 @@ ul li {
 
 
 
-h1 {
+.introk {
 	position: absolute;
 	color: white;
 	top: 17.5rem;
@@ -120,7 +118,7 @@ h1 {
 	position: absolute;
 	color: white;
 	text-align: center;
-	top: 23.5rem;
+	top: 22.5rem;
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -128,15 +126,15 @@ h1 {
 
 }
 
-button {
+.buttons {
 	text-shadow: none;
 	border-style: none;
-	padding: 1rem 1.5rem;
+	padding: .25rem .75rem;
 	display: block;
 	margin: 0 auto;
 	margin-top: 450px;
 	color: white;
-	width: 9.688rem;
+	width: 155px;
 	background-color: #f15a29;
 	border-color: #f15a29;
 	font-family: 'Roboto', sans-serif;
@@ -144,15 +142,13 @@ button {
 	border-radius: 4px;
 }
 
-
+.everyone {
+	font-size: 44px;
+	font-weight: 300;
+	margin-top: -50px;
+}
 /*lower body*/
 
-.everyone {
-	color: black;
-	text-align: center;
-	margin-top: 550px;
-
-}
 
 
 .three .caption h3 {
@@ -166,21 +162,99 @@ button {
 .lowercontent .three > li {
 	width: 33.3333%;
 	float: left;
+	margin-right: -100px;
+
+
 }
 
+.three {
+	margin-left: 190px;
+}
 .lowercontent .content { 
 	margin-top: 10.938rem;
 	padding: none;
 	text-align: center;
 	 }
 
-.lowercontent {
-	margin: 1.625rem 0 3.125rem;
+
+
+.social {
+    background-color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
 
-.caption {
-  font-weight: strong; 
-  font-size: 20px;
-  padding: none;
+
+.social .icons > li {
+	border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 1.25rem;
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
 }
 
+    .social .icons > li:hover {
+        cursor: pointer;
+    }
+    .social .twitter {
+        color: #55acee;
+    }
+    .social .facebook {
+        color: #4c66a4;
+    }
+    .social .instagram {
+        color: #3f729b;
+    }
+    .social .copy {
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: #838994;
+        margin-left: 40px;
+    }
+
+#footer {
+	padding: 0%;
+	margin-bottom: auto;
+	margin-top: 400px;
+
+}
+
+#footer .typography {
+	font-size: 18px;
+	margin-left: 40px;
+	font-weight: 300;
+	padding-bottom: none;
+}
+
+#footer .hr {
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
