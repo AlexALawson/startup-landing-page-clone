@@ -8,18 +8,18 @@ html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+
 	-webkit-font-smoothing: antialiased;
 }
 
 
-ul {
+.links {
 	list-style-type: none;
 	padding-left: 500px;
 	margin-right: 300px;
 }
 
-div {
+.comtent {
 	margin: auto;
 	align-content: auto;
 	display: inline;
@@ -114,7 +114,7 @@ h1 {
 
 }
 
-h3 {
+.slogan {
 	position: absolute;
 	color: white;
 	text-align: center;
@@ -132,7 +132,7 @@ button {
 	padding: 1rem 1.5rem;
 	display: block;
 	margin: 0 auto;
-	margin-top: 420px;
+	margin-top: 450px;
 	color: white;
 	width: 9.688rem;
 	background-color: #f15a29;
@@ -142,3 +142,37 @@ button {
 	border-radius: 4px;
 }
 
+
+/*lower body*/
+
+.everyone {
+	color: black;
+	text-align: center;
+	margin-top: 550px;
+
+}
+
+
+.three .caption h3 {
+	font-weight: 300; 
+	margin: 2.5rem 0 1.875rem;
+	font-size: 2.75
+	padding: none;
+	ma
+}
+
+.lowercontent .three > li {
+	width: 33.3333%;
+	float: left;
+	display: inline-block;
+}
+
+.lowercontent .content { 
+	margin-top: 9.938rem;
+	padding: none;
+	text-align: center;
+	 }
+
+.lowercontent {
+	margin: 1.625rem 0 3.125rem;
+}
