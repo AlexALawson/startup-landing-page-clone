@@ -6,6 +6,8 @@ body {
 
 html {
   box-sizing: border-box;
+  vertical-align: baseline;
+  
 }
 *, *:before, *:after {
 
@@ -154,21 +156,20 @@ button {
 
 
 .three .caption h3 {
-	font-weight: 300; 
+	font-weight: 400; 
 	margin: 2.5rem 0 1.875rem;
-	font-size: 2.75
+  font-size: 1.54rem;
 	padding: none;
-	ma
+  overflow: hidden;
 }
 
 .lowercontent .three > li {
 	width: 33.3333%;
 	float: left;
-	display: inline-block;
 }
 
 .lowercontent .content { 
-	margin-top: 9.938rem;
+	margin-top: 10.938rem;
 	padding: none;
 	text-align: center;
 	 }
@@ -176,3 +177,10 @@ button {
 .lowercontent {
 	margin: 1.625rem 0 3.125rem;
 }
+
+.caption {
+  font-weight: strong; 
+  font-size: 20px;
+  padding: none;
+}
+
