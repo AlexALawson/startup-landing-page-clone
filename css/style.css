@@ -1,0 +1,144 @@
+
+body {
+	font-family: 'Roboto', sans-serif; 
+
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+ul {
+	list-style-type: none;
+	padding-left: 500px;
+	margin-right: 300px;
+}
+
+div {
+	margin: auto;
+	align-content: auto;
+	display: inline;
+	width: 800px;
+
+}
+
+ul li {
+	display: inline;
+}
+
+.top-navigation .logo {
+	height: 4.75rem;
+}
+
+.top-navigation .logo { 
+	height: 4.375rem;
+ }
+
+ .top-navigation .links {
+	float: right; 
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+
+ }
+
+ .top-navigation .links li {
+ 	display: inline-block;
+ 	margin-left: 1.563rem;
+ }
+ .top-navigation > .content {
+ 	width: 970px
+    height: 4.375rem;
+    margin: 0 auto;
+}
+.content {
+    padding: 0px 15px;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+.top-navigation {
+	background-color: white; 
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+}
+
+.logo {
+	height: 4.375rem;
+	position: absolute;
+	left: 250px;
+
+}
+
+.top-navigation .links li.active {
+	color: #4c5058;
+	font-weight: 500;
+
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+
+/* body & buttons */
+
+.intro {
+	background-image: url(http://s31.postimg.org/blfbzh7ej/first_background_copy.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+
+
+h1 {
+	position: absolute;
+	color: white;
+	top: 17.5rem;
+	text-align: center;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 3.125rem;
+
+}
+
+h3 {
+	position: absolute;
+	color: white;
+	text-align: center;
+	top: 23.5rem;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.563rem;
+
+}
+
+button {
+	text-shadow: none;
+	border-style: none;
+	padding: 1rem 1.5rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 420px;
+	color: white;
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	border-radius: 4px;
+}
+
